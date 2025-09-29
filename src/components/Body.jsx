@@ -1,6 +1,6 @@
-import Background from "../src/assets/background.png";
-import Computer from "../src/assets/computer.png";
-import Magnify from "../src/assets/magnify.png";
+import Background from "./../src/assets/background.png";
+import Computer from "./../src/assets/computer.png";
+import Magnify from "./../src/assets/magnify.png";
 
 import React, { useState } from "react";
 
