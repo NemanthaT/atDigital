@@ -1,3 +1,6 @@
+import Background from "../src/assets/background.png";
+import Computer from "../src/assets/computer.png";
+import Magnify from "../src/assets/magnify.png";
 
 import React, { useState } from "react";
 
@@ -26,7 +29,7 @@ function Body() {
     <>
       <section className="hero">
         <div className="overlay">
-          <img src="../src/assets/background.png" alt="Background" />
+          <img src={Background} alt="Background" />
         </div>
 
         <div className="hero-content">
@@ -42,7 +45,7 @@ function Body() {
       <section className="services" id="services">
         <div className="service-card">
           <div className="service-icon">
-            <img src="../src/assets/computer.png" alt="computer" />
+            <img src={Computer} alt="computer" />
           </div>
           <div className="service-content">
             <h2>Web & Mobile App Development</h2>
@@ -55,7 +58,7 @@ function Body() {
 
         <div className="service-card">
           <div className="service-icon">
-              <img src="../src/assets/magnify.png" alt="magnifyGlass" />
+              <img src={Magnify} alt="magnifyGlass" />
           </div>
           <div className="service-content">
             <h2>Digital Strategy Consulting</h2>

@@ -1,10 +1,12 @@
+import Logo from "../src/assets/logo.png";
+
 function Footer() {
   return (
     <footer>
       <div class="footer-content">
         <div>
           <div class="footer-logo">
-            <img src="../src/assets/logo.png" alt="AT digital logo" />
+            <img src={Logo} alt="AT digital logo" />
           </div>
           <p class="footer-desc">
             Your goal is our target. Not anything in between. We use online

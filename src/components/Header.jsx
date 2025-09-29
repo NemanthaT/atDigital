@@ -1,3 +1,4 @@
+import Logo from "../src/assets/logo.png";
 import React, { useState } from "react";
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
     <header>
       <nav className="nav">
         <div className="logo">
-          <img src="../src/assets/logo.png" alt="AT digital logo" />
+          <img src={Logo} alt="AT digital logo" />
         </div>
         <button
           className="hamburger"
